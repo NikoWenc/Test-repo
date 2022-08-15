@@ -1,0 +1,112 @@
+body {
+    background-color: teal;
+}
+
+/* header {
+    border: 1px solid #333;
+    margin: -1% -1%;
+    background-color: blue;
+} */
+
+.img-div {
+    border: 1px solid black;
+}
+
+/* My image */
+.Niko {
+    width: 400px;
+    height: 450px;
+    /* to center an image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* to center an image */
+}
+
+.Name-intro {
+    font-size: 25px;
+}
+
+hr.first {
+    border: 1px solid black;
+}
+
+.tcap {
+    font-size: 25px;
+}
+
+/* first table */
+.table1 {
+    /* to center a table */
+    width: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    /* to center a table */
+    border-collapse: collapse;
+    text-align: left;
+}
+/* hover color on table datas */
+.table1d:hover, 
+.table1h:hover {
+    background-color: aqua;
+}
+.table1d {
+    border: 2px solid black;
+    padding-right: 20px;
+}
+
+/* 2nd table */
+.table2 {
+       /* to center a table */
+       width: auto;
+       margin-left: auto; 
+       margin-right: auto;
+       /* to center a table */
+       border-collapse: collapse;
+       text-align: left;
+}
+.table2h, 
+.table2d {
+    border: 2px solid black;
+    padding-right: 20px;
+}
+/* to shade the odd colums */
+.table2h:nth-child(odd), 
+.table2d:nth-child(odd) {
+    background-color: aqua;
+}
+
+p.subscript {
+    font-size: 30px;
+}
+
+p.superscript {
+    font-size: 30px;
+}
+
+/* grid layout */
+.parent-grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.child-grid {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+/* use ::first-line to select first line of text */
+.child-grid p::first-line {
+    background-color: blue;
+}
+
+/* to automatically stlye the child */
+article *:first-child {
+    color: red;
+}
+
+/* * {
+    ;
+} */
